@@ -49,7 +49,7 @@ export default function App() {
 
       <ol style={{textAlign: "center"}}>
         {podcasts[genreSelected].map((key) => (
-          <li style={{ textAlign: "center" }}>{key.name}</li>
+          <li style={{ textAlign: "center" }}>{key.name} / rating = {key.rating}</li>
         ))}
       </ol>
     </div>
